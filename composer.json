@@ -1,0 +1,34 @@
+{
+	"name": "tolstoydotcom/csvobject",
+	"description": "Generates PHP classes to read a CSV file.",
+	"authors": [
+		{
+			"name": "Chris Kelly",
+			"homepage": "https://tolstoy.com"
+		}
+	],
+	"license": "Apache-2.0",
+	"keywords": [
+		"csv",
+		"php",
+		"generator"
+	],
+	"require": {
+		"nette/php-generator": "^3.3",
+		"jwage/easy-csv": "^1.0",
+		"jawira/case-converter": "^3.4",
+		"vanilla/garden-cli": "^2.2",
+		"webmozart/path-util": "^2.0",
+		"php": "^7.2"
+	},
+	"suggest": {
+		"ext-mbstring": "Either install the PHP mbstring extension, or type 'composer require symfony/polyfill-mbstring'"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"autoload": {
+		"psr-4": {
+			"TolstoyDotCom\\": "src/"
+		}
+	}
+}
