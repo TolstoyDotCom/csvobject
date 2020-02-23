@@ -1,3 +1,9 @@
 *.zip
 *.tar.gz
 dev
+vendor
+composer.lock
+output/*
+!output/placeholder
+data/*
+!data/test.csv

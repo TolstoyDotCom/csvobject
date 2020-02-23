@@ -11,7 +11,18 @@ Usage
 * Create a new directory, open a command line window in that directory, and type:
 
 ```sh
-composer require tolstoydotcom/csvobject
+git clone https://github.com/TolstoyDotCom/csvobject.git
+cd csvobject
+```
+
+* (Alternatively, download this project into a local directory)
+
+* (To use this in your own project: `composer require tolstoydotcom/csvobject`)
+
+* In the root directory of this project, type:
+
+```sh
+composer update
 ```
 
 * If the PHP extension mbstring isn't installed, either install it or type:
